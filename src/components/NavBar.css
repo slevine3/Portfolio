@@ -1,0 +1,64 @@
+.nav_container1 {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 75px;
+  color: white;
+  position: fixed;
+}
+.nav_container2 {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  /* Change opacticy or other value to give navbar slightly transparent look */
+  height: 50px;
+  color: white;
+  position: fixed;
+  opacity: 0.7;
+}
+
+.logo {
+  margin-left: 20px;
+  padding-right: 20px;
+}
+.nav_bar1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+  width: 100vw;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav_bar2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+  width: 100vw;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_link {
+  margin-right: 30px;
+  color: white;
+}
+a:visited {
+
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+.active-page1 {
+  color: red;
+}
+.active-page2 {
+  color: red;
+}
+.active-page3 {
+  color: red;
+}
+.active-page4 {
+  color: red;
+}
