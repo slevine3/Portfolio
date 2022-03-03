@@ -5,7 +5,7 @@ export const Home = () => {
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
   const [reverse, setReverse] = useState(false);
-
+  const words = ["Developer", "Programmer", "Problem Solver."];
   // typeWriter
   useEffect(() => {
     const words = ["Developer", "Programmer", "Problem Solver."];
