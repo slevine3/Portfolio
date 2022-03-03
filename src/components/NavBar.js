@@ -10,7 +10,7 @@ export const NavBar = () => {
   const [contactClass, setContactClass] = useState(null);
 
   const controlNavbar = () => {
-    console.log(window.scrollY);
+
     if (window.scrollY >= 0 && window.scrollY < 20) {
       setNavContainerClass("nav_container1");
       setNavBar("nav_bar1");
@@ -56,9 +56,6 @@ export const NavBar = () => {
 
   return (
     <div className={navContainerClass}>
-      <div className="logo">
-        <a href="/">*</a>
-      </div>
       <div className={navBar}>
         <div className="nav_link">
           <div>

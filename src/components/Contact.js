@@ -2,7 +2,7 @@ export const Contact = () => {
   return (
     <div id="contact" className="contact_container">
       <div>
-        <h1>Contact Me</h1>
+        <h1>CONTACT ME</h1>
       </div>
       <div>
         <form className="contact_form">
@@ -13,7 +13,7 @@ export const Contact = () => {
           <lable htmlFor="message">Message: </lable>
           <textarea name="message"></textarea>
 
-          <div><button>Submit</button></div>
+          <button>Submit</button>
         </form>
       </div>
     </div>
