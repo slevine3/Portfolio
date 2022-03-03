@@ -9,9 +9,9 @@ export const Project = () => {
       </div>
       <div className="all_project_container">
         <div className="project_display_conatainer">
-          <h2 style={{ "textAlign": "center" }}>Climber Nation</h2>
+          <h2 style={{ textAlign: "center" }}>Climber Nation</h2>
           <div>
-            <a href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5">
+            <a href="https://climber-nation.herokuapp.com/">
               <img
                 className="project_image"
                 src={Climber_Nation}
@@ -40,7 +40,7 @@ export const Project = () => {
           </div>
         </div>
         <div className="project_display_conatainer">
-          <h2 style={{ "textAlign": "center" }}>Memory Game</h2>
+          <h2 style={{ textAlign: "center" }}>Memory Game</h2>
           <div>
             <a href="https://slevine3.github.io/MemoryGame/">
               <img

@@ -7,12 +7,16 @@
   color: white;
   padding-top: 75px;
 }
+.contact_info_container{
+  display: flex;
+  margin-left: 150px;
 
+}
 .contact_form {
   display: flex;
   flex-direction: column;
-  border-right: 1px solid white;
-  padding-right: 10px;
+  border-right: 2px solid white;
+  padding-right: 100px;
 }
 
 input {
@@ -20,6 +24,15 @@ input {
   width: 250px;
   height: 25px;
 }
+
+.contact_logos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  padding-left: 100px;
+}
+
 
 * {
   font-family: "Source Sans Pro", sans-serif;
