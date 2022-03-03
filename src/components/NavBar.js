@@ -1,5 +1,6 @@
 import resume from "./Resume/Sam-Levine_Resume.pdf";
 import { useState, useEffect } from "react";
+import { saveAs } from "file-saver";
 
 export const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
@@ -10,7 +11,6 @@ export const NavBar = () => {
   const [contactClass, setContactClass] = useState(null);
 
   const controlNavbar = () => {
-
     if (window.scrollY >= 0 && window.scrollY < 20) {
       setNavContainerClass("nav_container1");
       setNavBar("nav_bar1");
@@ -47,6 +47,10 @@ export const NavBar = () => {
       setProjectClass(null);
       setContactClass("contact_style");
     }
+  };
+
+  const saveFile = () => {
+    saveAs(resume);
   };
 
   useEffect(() => {
@@ -89,7 +93,11 @@ export const NavBar = () => {
         </div>
         <div className="nav_link">
           <div>
-            <a href="Resume/Sam-Levine_Resume.pdf" download={resume}>
+            <a
+              style={{ cursor: "pointer" }}
+              onClick={saveFile}
+              download={resume}
+            >
               Download Resume
             </a>
           </div>

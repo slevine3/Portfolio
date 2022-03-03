@@ -1,8 +1,6 @@
 import Linkedin from "./Images/LinkedinProfile.PNG";
 import { useState, useEffect } from "react";
 export const Home = () => {
-  const words = ["Developer", "Programmer", "Problem Solver."];
-
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
@@ -10,6 +8,7 @@ export const Home = () => {
 
   // typeWriter
   useEffect(() => {
+    const words = ["Developer", "Programmer", "Problem Solver."];
     if (index === words.length - 1 && subIndex === words[index].length) {
       return;
     }
