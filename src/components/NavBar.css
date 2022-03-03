@@ -1,7 +1,7 @@
 .nav_container1 {
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: #101010;
   height: 75px;
   color: white;
   position: fixed;
@@ -10,11 +10,10 @@
   display: flex;
   align-items: center;
   background-color: black;
-  /* Change opacticy or other value to give navbar slightly transparent look */
   height: 50px;
   color: white;
   position: fixed;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .logo {
@@ -26,7 +25,7 @@
   justify-content: flex-start;
   margin-right: 20px;
   width: 100vw;
-  font-size: 18px;
+  font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .nav_bar2 {
@@ -43,22 +42,33 @@
   color: white;
 }
 a:visited {
-
   color: white;
 }
 
 a {
   text-decoration: none;
 }
-.active-page1 {
-  color: red;
+.home_style {
+  color: red !important;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
 }
-.active-page2 {
-  color: red;
+.about_style {
+  color: red !important;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
 }
-.active-page3 {
-  color: red;
+.project_style {
+  color: red !important;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
 }
-.active-page4 {
-  color: red;
+.contact_style {
+  color: red !important;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
 }
