@@ -31,6 +31,7 @@
   width: 100vw;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 .nav_bar2 {
   display: flex;
@@ -38,6 +39,7 @@
   margin-right: 20px;
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .nav_link {
