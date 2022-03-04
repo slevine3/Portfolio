@@ -18,14 +18,14 @@ export const NavBar = () => {
       setProjectClass(null);
       setAboutClass(null);
       setContactClass(null);
-    } else if (window.scrollY > 20 && window.scrollY < 300) {
+    } else if (window.scrollY >= 20 && window.scrollY < 300) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass("home_style");
       setAboutClass(null);
       setProjectClass(null);
       setContactClass(null);
-    } else if (window.scrollY > 300 && window.scrollY < 900) {
+    } else if (window.scrollY >= 300 && window.scrollY < 900) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass(null);
