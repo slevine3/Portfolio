@@ -17,7 +17,7 @@ export const About = () => {
         <div className="about_description">
           I'm a software engineer based out of Haifa, Israel with a love for
           surfing, rock climbing, logic, and technology. I recently graduated
-          from Developers Institute; an intensive 1,000-hour coding bootcamp
+          from Developers Institute; an internationally recognized coding bootcamp
           where I had the opportunity to sharpen my skills as a software
           engineer. After graduating from CUNY Queens College, I have spent the
           last 5 years working as a Commercial Property Manager, developing my
