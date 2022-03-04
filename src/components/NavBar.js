@@ -11,6 +11,7 @@ export const NavBar = () => {
   const [contactClass, setContactClass] = useState(null);
 
   const controlNavbar = () => {
+    console.log(window.scrollY);
     if (window.scrollY >= 0 && window.scrollY < 20) {
       setNavContainerClass("nav_container1");
       setNavBar("nav_bar1");
@@ -32,7 +33,7 @@ export const NavBar = () => {
       setAboutClass("about_style");
       setProjectClass(null);
       setContactClass(null);
-    } else if (window.scrollY >= 900 && window.scrollY < 1500) {
+    } else if (window.scrollY >= 1000 && window.scrollY < 1600) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass(null);
