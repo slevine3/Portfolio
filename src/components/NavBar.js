@@ -26,7 +26,7 @@ export const NavBar = () => {
       setAboutClass(null);
       setProjectClass(null);
       setContactClass(null);
-    } else if (window.scrollY >= 300 && window.scrollY < 900) {
+    } else if (window.scrollY >= 300 && window.scrollY < 1000) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass(null);
