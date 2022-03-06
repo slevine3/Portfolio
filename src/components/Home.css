@@ -7,13 +7,18 @@
   background-color: #101010;
   color: white;
   padding-left: 20px;
-
+}
+.home_title {
+  font-size: 44px;
+}
+.home_name {
+  font-size: 36px;
 }
 .home_subtitle {
+  display: flex;
   padding-left: 60px;
 }
 .home_body {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,9 +27,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 .profile_pic {
   height: 450px;
   width: 450px;
+}
+
+.typewritter {
+  color: red;
+  font-size: 36px;
+  margin-left: 15px;
 }

@@ -94,8 +94,8 @@ export const NavBar = () => {
         </div>
         <div className="nav_link">
           <div>
-            <button
-              style={{ cursor: "pointer" }}
+            <button className="button-11"
+         
               onClick={saveFile}
               download={resume}
             >

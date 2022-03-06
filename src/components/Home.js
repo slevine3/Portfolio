@@ -47,14 +47,17 @@ export const Home = () => {
     <div id="home" className="home_container">
       <div className="home_body">
         <div>
-          <h1>WELCOME TO MY PORTFOLIO</h1>
+          <p className="home_title">WELCOME TO MY PORTFOLIO</p>
         </div>
 
-        <div>
-          <h2 className="home_subtitle">
-            Sam Levine, the{" "}
-            {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}{" "}
-          </h2>
+        <div className="home_subtitle">
+          <p className="home_name">Sam Levine, </p>
+          <p className="typewritter">
+            {" "}
+            the {`${words[index].substring(0, subIndex)}${
+              blink ? "|" : " "
+            }`}{" "}
+          </p>
         </div>
       </div>
       <div className="home_image">
