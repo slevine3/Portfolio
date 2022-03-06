@@ -22,17 +22,13 @@ export const Contact = () => {
             <lable htmlFor="message">Message: </lable>
             <textarea name="message"></textarea>
 
-            <button>Submit</button>
+            <button className="button-12">Submit</button>
           </form>
         </div>
         <div className="contact_logos">
           <div>
             <a href="https://www.linkedin.com/in/sam-levine-965696119/">
-              <img
-                src={linkedin_logo}
-                // style={{ backgroundColor: "white" }}
-                alt="LinkedIn logo"
-              ></img>
+              <img src={linkedin_logo} alt="LinkedIn logo"></img>
             </a>
           </div>
           <div>
