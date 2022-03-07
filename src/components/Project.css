@@ -77,5 +77,7 @@
   .project_display_conatainer{
     margin-left: -30px;
   }
-
+.project_name{
+  padding-left: 40px;
+}
 }

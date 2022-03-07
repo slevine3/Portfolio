@@ -40,7 +40,7 @@ export const Project = () => {
           </div>
         </div>
         <div className="project_display_conatainer">
-          <h2 style={{ textAlign: "center" }}>Memory Game</h2>
+          <h2 className="project_name">Memory Game</h2>
           <div>
             <a href="https://slevine3.github.io/MemoryGame/">
               <img
