@@ -32,7 +32,6 @@ input {
   padding-left: 100px;
 }
 
-/* CSS */
 .button-12 {
   display: flex;
   flex-direction: column;
@@ -73,7 +72,7 @@ input {
   .contact_info_container {
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
+    margin-left: 20px;
   }
   .contact_form {
     border-right: none;
@@ -81,11 +80,13 @@ input {
   }
   .contact_logos {
     margin-top: 40px;
-    margin-left: -60px;
+    width: 200px;
+    padding-left: 20px;
   }
   .textarea {
     width: 250px;
-  }.button-12{
+  }
+  .button-12 {
     width: 255px;
   }
 }

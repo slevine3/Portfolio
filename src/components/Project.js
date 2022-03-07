@@ -4,7 +4,7 @@ import Memory_Game from "./Images/MemoryGame.PNG";
 export const Project = () => {
   return (
     <div id="project" className="project_container">
-      <div>
+      <div className="project_title">
         <h1>MY LATEST PROJECTS</h1>
       </div>
       <div className="all_project_container">

@@ -56,16 +56,19 @@
   .project_subtitle {
     font-size: 14px;
   }
-  .project_links{
+  .project_links {
     padding-left: 0px;
     margin-left: -30px;
   }
-  .project_container{
+  .project_container {
     height: 800px;
   }
   .all_project_container {
     display: flex;
     flex-direction: column;
-    
+  }
+  .project_title {
+    font-size: 16px;
+    padding-left: 20px;
   }
 }
