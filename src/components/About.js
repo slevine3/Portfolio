@@ -38,10 +38,10 @@ export const About = () => {
               <h4>CSS</h4>
             </div>
           </div>
-          <div className="logo">
+          <div className="logo logo2_alignment">
             <div className="logo_box">
               <img src={react_logo} alt="react-logo"></img>
-              <h4>React</h4>
+              <h4 >React</h4>
             </div>
 
             <div className="logo_box">
