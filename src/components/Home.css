@@ -58,5 +58,13 @@
     height: 250px;
     width: 250px;
   }
-  
+}
+@media screen and (max-width: 720px) {
+  .home_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 0;
+    text-align: center;
+  }
 }

@@ -77,10 +77,15 @@ input {
   }
   .contact_form {
     border-right: none;
+    padding-right: 0px;
   }
   .contact_logos {
     margin-top: 40px;
     margin-left: -60px;
-    
+  }
+  .textarea {
+    width: 250px;
+  }.button-12{
+    width: 255px;
   }
 }

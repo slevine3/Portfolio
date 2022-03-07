@@ -20,9 +20,9 @@ export const Contact = () => {
             <lable htmlFor="email">Email: </lable>
             <input type="email" name="email"></input>
             <lable htmlFor="message">Message: </lable>
-            <textarea name="message"></textarea>
+            <textarea className="textarea" name="message"></textarea>
 
-            <button className="button-12">Submit</button>
+            <button  className="button-12">Submit</button>
           </form>
         </div>
         <div className="contact_logos">

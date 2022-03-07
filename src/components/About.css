@@ -66,19 +66,39 @@ img {
 }
 
 @media screen and (max-width: 720px) {
+  .about_body {
+    display: flex;
+    flex-direction: column;
+  }
   .about_description {
     font-size: 16px;
     margin-top: 0;
     padding-left: 20px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+
   }
   img {
     height: 50px;
     width: auto;
   }
   .logo_container {
+    border-left: none;
     margin-left: 20px;
+    width: 300px;
+    padding-left: 20px;
   }
-  .logo{
+  /* .logo_container {
+    border-left: 2px solid white;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+  } */
+
+  .logo {
     grid-gap: 50px;
   }
 }
