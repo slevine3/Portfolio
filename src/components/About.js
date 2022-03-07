@@ -19,9 +19,7 @@ export const About = () => {
           surfing, rock climbing, logic, and technology. I recently graduated
           from Developers Institute; an internationally recognized coding bootcamp
           where I had the opportunity to sharpen my skills as a software
-          engineer. After graduating from CUNY Queens College, I have spent the
-          last 5 years working as a Commercial Property Manager, developing my
-          professional skills.
+          engineer.
         </div>
         <div className="logo_container">
           <div className="logo">

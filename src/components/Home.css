@@ -2,7 +2,6 @@
   display: flex;
   padding-top: 100px;
   justify-content: space-evenly;
-
   height: 600px;
   background-color: #101010;
   color: white;
@@ -34,7 +33,30 @@
 }
 
 .typewritter {
-  color: red;
+  color: rgb(28, 136, 236);
   font-size: 36px;
   margin-left: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .home_subtitle {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .home_title {
+    font-size: 24px;
+  }
+  .home_name {
+    font-size: 20px;
+  }
+  .typewritter {
+    font-size: 20px;
+    margin: 0;
+  }
+  .profile_pic {
+    height: 250px;
+    width: 250px;
+  }
+  
 }

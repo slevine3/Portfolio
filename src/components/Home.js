@@ -5,10 +5,10 @@ export const Home = () => {
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
   const [reverse, setReverse] = useState(false);
-  const words = ["Developer", "Programmer", "Problem Solver."];
+  const words = ["Programmer", "Developer", "Problem Solver."];
   // typeWriter
   useEffect(() => {
-    const words = ["Developer", "Programmer", "Problem Solver."];
+    const words = ["Programmer", "Developer", "Problem Solver."];
     if (index === words.length - 1 && subIndex === words[index].length) {
       return;
     }
