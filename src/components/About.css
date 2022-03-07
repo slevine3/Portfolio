@@ -73,11 +73,11 @@ img {
   .about_description {
     font-size: 16px;
     margin-top: 0;
-    padding-left: 30px;
+    padding-left: 20px;
     width: 375px;
     height: 200px;
     text-align: center;
-
+    
   }
   .about_title{
     margin-bottom: 0px;
@@ -91,7 +91,7 @@ img {
     border-left: none;
     margin-left: 20px;
     width: 300px;
-    padding-left: 35px;
+    padding-left: 30px;
   }
 
   .logo {

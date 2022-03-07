@@ -9,7 +9,7 @@ export const Project = () => {
       </div>
       <div className="all_project_container">
         <div className="project_display_conatainer">
-          <h2 style={{ textAlign: "center" }}>Climber Nation</h2>
+          <h2 className="project_name">Climber Nation</h2>
           <div>
             <a href="https://climber-nation.herokuapp.com/">
               <img

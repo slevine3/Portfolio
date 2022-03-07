@@ -9,6 +9,7 @@
 }
 .home_title {
   font-size: 44px;
+  font-weight: bold;
 }
 .home_name {
   font-size: 36px;
@@ -48,10 +49,10 @@
     font-size: 24px;
   }
   .home_name {
-    font-size: 20px;
+    font-size: 24px;
   }
   .typewritter {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
   }
   .profile_pic {
