@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
   .project_image {
     margin-left: 50px;
     height: 150px;
