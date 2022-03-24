@@ -1,14 +1,27 @@
 .home_container {
   display: flex;
   padding-top: 100px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   height: 600px;
-  background-color: #101010;
+  background-image: linear-gradient(
+      to right,
+      rgba(53, 57, 83, 0.52),
+      rgba(21, 23, 56, 0.52)
+    ),
+    url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding-left: 20px;
+  padding-top: 120px;
 }
 .home_title {
-  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 92px;
   font-weight: bold;
 }
 .home_name {
@@ -16,7 +29,7 @@
 }
 .home_subtitle {
   display: flex;
-  padding-left: 60px;
+
 }
 .home_body {
   display: flex;
@@ -31,10 +44,14 @@
 .profile_pic {
   height: 450px;
   width: 450px;
+  opacity: 0.2;
 }
 
 .typewritter {
-  color: rgb(28, 136, 236);
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  color: orange;
   font-size: 36px;
   margin-left: 15px;
 }

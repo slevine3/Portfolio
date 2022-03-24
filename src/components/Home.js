@@ -1,11 +1,15 @@
 import Linkedin from "./Images/LinkedinProfile.PNG";
+import code1 from "./Images/code1.jpg";
+import code2 from "./Images/code2.jpg";
+import code3 from "./Images/code3.jpg";
+
 import { useState, useEffect } from "react";
 export const Home = () => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
   const [reverse, setReverse] = useState(false);
-  const words = ["Programmer", "Developer", "Problem Solver."];
+  const words = ["<Programmer />", "Developer", "Problem Solver."];
   // typeWriter
   useEffect(() => {
     const words = ["Programmer", "Developer", "Problem Solver."];
@@ -47,14 +51,14 @@ export const Home = () => {
     <div id="home" className="home_container">
       <div className="home_body">
         <div>
-          <p className="home_title">WELCOME TO MY PORTFOLIO</p>
+          <p className="home_title">Hi, I'm Sam Levine</p>
         </div>
 
         <div className="home_subtitle">
-          <p className="home_name">Sam Levine, </p>
+          {/* <p className="home_name">Sam Levine, </p> */}
           <p className="typewritter">
             {" "}
-            the {`${words[index].substring(0, subIndex)}${
+             {`${words[index].substring(0, subIndex)}${
               blink ? "|" : " "
             }`}{" "}
           </p>
@@ -62,7 +66,7 @@ export const Home = () => {
       </div>
       <div className="home_image">
         <div>
-          <img src={Linkedin} className="profile_pic" alt="profile_pic"></img>
+          {/* <img src={Linkedin} className="profile_pic" alt="profile_pic"></img> */}
         </div>
       </div>
     </div>
