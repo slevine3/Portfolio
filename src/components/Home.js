@@ -1,7 +1,7 @@
-import Linkedin from "./Images/LinkedinProfile.PNG";
-import code1 from "./Images/code1.jpg";
-import code2 from "./Images/code2.jpg";
-import code3 from "./Images/code3.jpg";
+// import Linkedin from "./Images/LinkedinProfile.PNG";
+// import code1 from "./Images/code1.jpg";
+// import code2 from "./Images/code2.jpg";
+// import code3 from "./Images/code3.jpg";
 
 import { useState, useEffect } from "react";
 export const Home = () => {
