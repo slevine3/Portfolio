@@ -56,18 +56,20 @@ export const Home = () => {
         <p className="home_title">Hi, I'm Sam Levine</p>
 
         <div className="home_subtitle">
-          {/* <p className="home_name">Sam Levine, </p> */}
+   
           <p className="typewritter">
             {" "}
             {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}{" "}
           </p>
         </div>
-        <div>
-          <button className="button-11" onClick={saveFile} download={resume}>
+       <div className="button_container">
+       <button className="button-11" onClick={saveFile} download={resume}>
             Download Resume
           </button>
-        </div>
+     
         
+       </div>
+  
       </div>     
     </div>
   );
