@@ -1,4 +1,4 @@
-import pic from "./Images/new_profile_pic.png"
+import profile_pic from "./Images/new_profile_pic.png"
 export const About = () => {
   return (
     <div id="about" className="about_container">
@@ -14,7 +14,7 @@ export const About = () => {
           software engineer.
         </div>
         <div>
-          <img className="profile_pic"src={pic} alt="profile picture"></img>
+          <img className="profile_pic"src={profile_pic} alt="profile picture"></img>
         </div>
       </div>
     </div>
