@@ -14,7 +14,7 @@ export const About = () => {
           software engineer.
         </div>
         <div>
-          <img className="profile_pic"src={profile_pic} alt="profile picture"></img>
+          <img className="profile_pic"src={profile_pic} alt="profile_picture"></img>
         </div>
       </div>
     </div>
