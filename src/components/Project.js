@@ -1,5 +1,5 @@
 import Climber_Nation from "./Images/climberNation.PNG";
-import Memory_Game from "./Images/MemoryGame.PNG";
+import Wordle from "./Images/wordle.PNG";
 
 export const Project = () => {
   return (
@@ -45,7 +45,7 @@ export const Project = () => {
             <a href="https://slevine3.github.io/MemoryGame/">
               <img
                 className="project_image"
-                src={Memory_Game}
+                src={Wordle}
                 alt="Climber_Nation"
               ></img>
             </a>

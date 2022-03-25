@@ -1,0 +1,36 @@
+.technology_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #191919;
+  padding-top: 45px;
+}
+.technology_title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 50px;
+}
+.logo_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  text-align: center;
+  grid-gap: 100px;
+}
+.logo_box {
+  text-align: center;
+}
+h4 {
+  color: white;
+}
+img {
+  height: 60px;
+  width: auto;
+}
+.postgres_logo {
+  background-color: #191919;
+}

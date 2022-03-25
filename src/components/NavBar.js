@@ -1,6 +1,6 @@
-import resume from "./Resume/Sam-Levine_Resume.pdf";
+
 import { useState, useEffect } from "react";
-import { saveAs } from "file-saver";
+
 
 export const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
@@ -50,9 +50,6 @@ export const NavBar = () => {
     }
   };
 
-  const saveFile = () => {
-    saveAs(resume);
-  };
 
   useEffect(() => {
     controlNavbar();
@@ -93,15 +90,7 @@ export const NavBar = () => {
           </div>
         </div>
         <div className="nav_link">
-          <div>
-            <button className="button-11"
          
-              onClick={saveFile}
-              download={resume}
-            >
-              Download Resume
-            </button>
-          </div>
         </div>
       </div>
     </div>

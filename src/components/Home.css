@@ -1,7 +1,6 @@
 .home_container {
   display: flex;
   padding-top: 100px;
-  /* justify-content: space-evenly; */
   height: 600px;
   background-image: linear-gradient(
       to right,
@@ -19,17 +18,18 @@
 .home_title {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100vw;
+  width: 95vw;
   font-size: 92px;
   font-weight: bold;
+  margin-top: -150px;
 }
 .home_name {
   font-size: 36px;
 }
 .home_subtitle {
   display: flex;
-
+  justify-content: center;
+  margin-top: -75px;
 }
 .home_body {
   display: flex;
@@ -41,19 +41,39 @@
   flex-direction: column;
   justify-content: center;
 }
-.profile_pic {
-  height: 450px;
-  width: 450px;
-  opacity: 0.2;
-}
 
 .typewritter {
   display: flex;
   justify-content: center;
-  width: 100vw;
   color: orange;
   font-size: 36px;
   margin-left: 15px;
+}
+.button-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 650px;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: rgb(28, 136, 236);
+  cursor: pointer;
+}
+
+.button-11:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
 }
 
 @media screen and (max-width: 1024px) {

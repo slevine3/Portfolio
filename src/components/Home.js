@@ -1,16 +1,18 @@
-// import Linkedin from "./Images/LinkedinProfile.PNG";
-// import code1 from "./Images/code1.jpg";
-// import code2 from "./Images/code2.jpg";
-// import code3 from "./Images/code3.jpg";
-
 import { useState, useEffect } from "react";
+import resume from "./Resume/Sam-Levine_Resume.pdf";
+import { saveAs } from "file-saver";
+
 export const Home = () => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
   const [reverse, setReverse] = useState(false);
   const words = ["<Programmer />", "Developer", "Problem Solver."];
-  // typeWriter
+
+  const saveFile = () => {
+    saveAs(resume);
+  };
+
   useEffect(() => {
     const words = ["Programmer", "Developer", "Problem Solver."];
     if (index === words.length - 1 && subIndex === words[index].length) {
@@ -50,25 +52,23 @@ export const Home = () => {
   return (
     <div id="home" className="home_container">
       <div className="home_body">
-        <div>
-          <p className="home_title">Hi, I'm Sam Levine</p>
-        </div>
+        
+        <p className="home_title">Hi, I'm Sam Levine</p>
 
         <div className="home_subtitle">
           {/* <p className="home_name">Sam Levine, </p> */}
           <p className="typewritter">
             {" "}
-             {`${words[index].substring(0, subIndex)}${
-              blink ? "|" : " "
-            }`}{" "}
+            {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}{" "}
           </p>
         </div>
-      </div>
-      <div className="home_image">
         <div>
-          {/* <img src={Linkedin} className="profile_pic" alt="profile_pic"></img> */}
+          <button className="button-11" onClick={saveFile} download={resume}>
+            Download Resume
+          </button>
         </div>
-      </div>
+        
+      </div>     
     </div>
   );
 };
