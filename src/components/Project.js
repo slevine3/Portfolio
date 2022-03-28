@@ -2,7 +2,7 @@ import Climber_Nation from "./Images/climberNation.PNG";
 import Wordle from "./Images/wordle.PNG";
 
 //1. On image hover add transparency/opacity with caption of project.
-//2. Change Wordle Clone links to link to Wordle project instead of memory game
+
 export const Project = () => {
   return (
     <div id="project" className="project_container">
@@ -10,16 +10,22 @@ export const Project = () => {
         <h1>MY LATEST PROJECTS</h1>
       </div>
       <div className="all_project_container">
-        <div className="project_display_conatainer">
+        <div className="project_display_container">
           <h2 className="project_name">Climber Nation</h2>
-          <div>
-            <a href="https://climber-nation.herokuapp.com/">
+          <div className="img_wrap">
+            <a>
               <img
                 className="project_image"
                 src={Climber_Nation}
                 alt="Climber_Nation"
               ></img>
             </a>
+            <div class="img_overlay">
+              <a href="https://climber-nation.herokuapp.com/" class="img_title">
+                Full stack web application to assist rock climbing enthusiasts
+                in finding climbing partners.
+              </a>
+            </div>
           </div>
 
           <div className="project_links">
@@ -41,22 +47,28 @@ export const Project = () => {
             </div>
           </div>
         </div>
-        <div className="project_display_conatainer">
+        <div className="project_display_container">
           <h2 className="project_name">Wordle Clone</h2>
-          <div>
-            <a href="https://slevine3.github.io/Wordle/">
+          <div className="img_wrap">
+            <a>
               <img
                 className="project_image"
                 src={Wordle}
                 alt="Climber_Nation"
               ></img>
             </a>
+            <div class="img_overlay">
+              <a href="https://slevine3.github.io/Wordle/" class="img_title">
+              Fully functioning Wordle clone built with vanilla Javascript
+              </a>
+            </div>
           </div>
+
           <div className="project_links">
             <div>
               <a
                 className="project_subtitle"
-                href="https://www.loom.com/share/bb705a51d5fb4327a4950593590ee2ff"
+                href=""
               >
                 <h3>Live Demo</h3>
               </a>
@@ -70,9 +82,7 @@ export const Project = () => {
               </a>
             </div>
           </div>
-          
         </div>
-        
       </div>
     </div>
   );
