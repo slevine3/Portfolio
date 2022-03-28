@@ -40,6 +40,9 @@ export const Technology = () => {
   const [herokuTitle, setHerokuTitle] = useState({ display: "none" });
   const [herokuHeight, setHerokuHeight] = useState(null);
 
+  const [gitTitle, setGitTitle] = useState({ display: "none" });
+  const [gitHeight, setGitHeight] = useState(null);
+
   const handleJavascriptEnter = () => {
     setJavascriptTitle({ display: "block" });
     setJavascriptHeight({ height: "80px" });
@@ -56,6 +59,69 @@ export const Technology = () => {
   const handleHtmlLeave = () => {
     setHtmlTitle({ display: "none" });
     setHtmlHeight({ height: "60px" });
+  };
+
+  const handleCssEnter = () => {
+    setCssTitle({ display: "block" });
+    setCssHeight({ height: "80px" });
+  };
+  const handelCssLeave = () => {
+    setCssTitle({ display: "none" });
+    setCssHeight({ height: "60px" });
+  };
+
+  const handleReactEnter = () => {
+    setReactTitle({ display: "block" });
+    setReactHeight({ height: "80px" });
+  };
+  const handleReactLeave = () => {
+    setReactTitle({ display: "none" });
+    setReactHeight({ height: "60px" });
+  };
+
+  const handleReduxEnter = () => {
+    setReduxTitle({ display: "block" });
+    setReduxHeight({ height: "80px" });
+  };
+  const handleReduxLeave = () => {
+    setReduxTitle({ display: "none" });
+    setReduxHeight({ height: "60px" });
+  };
+
+  const handleNodeEnter = () => {
+    setNodeTitle({ display: "block" });
+    setNodeHeight({ height: "80px" });
+  };
+  const handleNodeLeave = () => {
+    setNodeTitle({ display: "none" });
+    setNodeHeight({ height: "60px" });
+  };
+
+  const handlePostgresEnter = () => {
+    setPostgresTitle({ display: "block" });
+    setPostgresHeight({ height: "80px" });
+  };
+  const handlePostgresLeave = () => {
+    setPostgresTitle({ display: "none" });
+    setPostgresHeight({ height: "60px" });
+  };
+
+  const handleHerokuEnter = () => {
+    setHerokuTitle({ display: "block" });
+    setHerokuHeight({ height: "80px" });
+  };
+  const handleHerokuLeave = () => {
+    setHerokuTitle({ display: "none" });
+    setHerokuHeight({ height: "60px" });
+  };
+
+  const handleGitEnter = () => {
+    setGitTitle({ display: "block" });
+    setGitHeight({ height: "80px" });
+  };
+  const handleGitLeave = () => {
+    setGitTitle({ display: "none" });
+    setGitHeight({ height: "60px" });
   };
 
   return (
@@ -88,62 +154,84 @@ export const Technology = () => {
           </div>
 
           <div className="logo_box">
-            <img src={css_logo} alt="css-logo"></img>
-            <h4>CSS</h4>
-          </div>
-        </div>
-        <div className="logo">
-          <div className="logo_box">
-            <img src={react_logo} alt="react-logo"></img>
-            <h4>React</h4>
-          </div>
-
-          <div className="logo_box">
-            <img src={redux_logo} alt="redux-logo"></img>
-            <h4>Redux</h4>
-          </div>
-
-          <div className="logo_box">
-            <img src={node_logo} alt="node-logo"></img>
-            <h4>Node.js</h4>
+            <img
+              onMouseEnter={() => handleCssEnter()}
+              onMouseLeave={() => handelCssLeave()}
+              style={cssHeight}
+              src={css_logo}
+              alt="css-logo"
+            ></img>
+            <h4 style={cssTitle}>CSS</h4>
           </div>
         </div>
         <div className="logo">
           <div className="logo_box">
             <img
-              className="postgres_logo"
-              src={postgres_logo}
-              alt="postgres-logo"
+              onMouseEnter={() => handleReactEnter()}
+              onMouseLeave={() => handleReactLeave()}
+              style={reactHeight}
+              src={react_logo}
+              alt="react-logo"
             ></img>
-            <h4>Postgres</h4>
+            <h4 style={reactTitle}>React</h4>
           </div>
+
           <div className="logo_box">
-            <img src={heroku_logo} alt="heroku-logo"></img>
-            <h4>Heroku</h4>
+            <img
+              onMouseEnter={() => handleReduxEnter()}
+              onMouseLeave={() => handleReduxLeave()}
+              style={reduxHeight}
+              src={redux_logo}
+              alt="redux-logo"
+            ></img>
+            <h4 style={reduxTitle}>Redux</h4>
           </div>
+
           <div className="logo_box">
-            <img src={github_logo} alt="heroku-logo"></img>
-            <h4>Github</h4>
+            <img
+              onMouseEnter={() => handleNodeEnter()}
+              onMouseLeave={() => handleNodeLeave()}
+              style={nodeHeight}
+              src={node_logo}
+              alt="node-logo"
+            ></img>
+            <h4 style={nodeTitle}>Node.js</h4>
           </div>
         </div>
         <div className="logo">
           <div className="logo_box">
             <img
+              onMouseEnter={() => handlePostgresEnter()}
+              onMouseLeave={() => handlePostgresLeave()}
+              style={postgresHeight}
               className="postgres_logo"
               src={postgres_logo}
               alt="postgres-logo"
             ></img>
-            <h4>Postgres</h4>
+            <h4 style={postgresTitle}>Postgres</h4>
           </div>
           <div className="logo_box">
-            <img src={heroku_logo} alt="heroku-logo"></img>
-            <h4>Heroku</h4>
+            <img
+              onMouseEnter={() => handleHerokuEnter()}
+              onMouseLeave={() => handleHerokuLeave()}
+              style={herokuHeight}
+              src={heroku_logo}
+              alt="heroku-logo"
+            ></img>
+            <h4 style={herokuTitle}>Heroku</h4>
           </div>
           <div className="logo_box">
-            <img src={github_logo} alt="heroku-logo"></img>
-            <h4>Github</h4>
+            <img
+              onMouseEnter={() => handleGitEnter()}
+              onMouseLeave={() => handleGitLeave()}
+              style={gitHeight}
+              src={github_logo}
+              alt="heroku-logo"
+            ></img>
+            <h4 style={gitTitle}>Github</h4>
           </div>
         </div>
+     
       </div>
     </div>
   );
