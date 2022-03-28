@@ -38,6 +38,9 @@ img {
 .postgres_logo {
   background-color: #191919;
 }
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 @media screen and (max-width: 1000px) {
   .logo_container {
@@ -60,3 +63,4 @@ img {
     grid-gap: 50px;
   }
 }
+

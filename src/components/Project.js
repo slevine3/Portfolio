@@ -44,7 +44,7 @@ export const Project = () => {
         <div className="project_display_conatainer">
           <h2 className="project_name">Wordle Clone</h2>
           <div>
-            <a href="https://slevine3.github.io/MemoryGame/">
+            <a href="https://slevine3.github.io/Wordle/">
               <img
                 className="project_image"
                 src={Wordle}
@@ -64,7 +64,7 @@ export const Project = () => {
             <div>
               <a
                 className="project_subtitle"
-                href="https://github.com/slevine3/MemoryGame"
+                href="https://github.com/slevine3/Wordle"
               >
                 <h3>Source Code</h3>
               </a>

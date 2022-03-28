@@ -9,7 +9,6 @@ import heroku_logo from "./Images/heroku-logo.png";
 import github_logo from "./Images/github-logo.png";
 
 import { useState } from "react";
-
 //4. Add 3 more logo icons in technology stack.
 //5. Try to figure out how to add cursor trail
 
@@ -122,8 +121,11 @@ export const Technology = () => {
     setGitHeight({ height: "60px" });
   };
 
+
+
   return (
     <div id="technologies" className="technology_container">
+
       <div>
         <h1 className="technology_title">TECHNOLOGY STACK</h1>
       </div>
@@ -229,7 +231,6 @@ export const Technology = () => {
             <h4 style={gitTitle}>Github</h4>
           </div>
         </div>
-     
       </div>
     </div>
   );

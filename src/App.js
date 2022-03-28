@@ -15,14 +15,12 @@ import "./components/Technology.css";
 function App() {
   return (
     <div>
-
       <NavBar />
       <Home />
       <About />
       <Technology />
       <Project />
       <Contact />
-      
     </div>
   );
 }
