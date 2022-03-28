@@ -64,7 +64,7 @@ export const Project = () => {
 
           <div className="project_links">
             <div>
-              <a className="project_subtitle" href="">
+              <a  className="project_subtitle" href="https://www.loom.com/my-videos">
                 <h3>Live Demo</h3>
               </a>
             </div>
