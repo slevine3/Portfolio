@@ -12,6 +12,9 @@ export const About = () => {
           from Developers Institute; an internationally recognized coding
           bootcamp where I had the opportunity to sharpen my skills as a
           software engineer.
+<br></br>
+<br></br>
+          My favorite project I've worked on has been Climber Nation, where I had the opportunity to build a full stack web application, complete with a backend database, security features, and dynamic frontend design. 
         </div>
         <div>
           <img className="profile_pic"src={profile_pic} alt="profile_picture"></img>

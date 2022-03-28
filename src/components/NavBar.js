@@ -1,12 +1,12 @@
-
 import { useState, useEffect } from "react";
-
+import sam_logo from "./Images/sam_logo.png";
 
 export const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
   const [navBar, setNavBar] = useState(null);
   const [homeClass, setHomeClass] = useState(null);
   const [aboutClass, setAboutClass] = useState(null);
+  const [technologiesClass, setTechnologiesClass] = useState(null);
   const [projectClass, setProjectClass] = useState(null);
   const [contactClass, setContactClass] = useState(null);
 
@@ -19,6 +19,7 @@ export const NavBar = () => {
       setProjectClass(null);
       setAboutClass(null);
       setContactClass(null);
+      setTechnologiesClass(null);
     } else if (window.scrollY >= 20 && window.scrollY < 300) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
@@ -26,6 +27,7 @@ export const NavBar = () => {
       setAboutClass(null);
       setProjectClass(null);
       setContactClass(null);
+      setTechnologiesClass(null);
     } else if (window.scrollY >= 300 && window.scrollY < 1000) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
@@ -33,13 +35,23 @@ export const NavBar = () => {
       setAboutClass("about_style");
       setProjectClass(null);
       setContactClass(null);
+      setTechnologiesClass(null);
     } else if (window.scrollY >= 1000 && window.scrollY < 1600) {
+      setNavContainerClass("nav_container2");
+      setNavBar("nav_bar2");
+      setHomeClass(null);
+      setAboutClass(null);
+      setProjectClass(null);
+      setContactClass(null);
+      setTechnologiesClass("technologies_style");
+    } else if (window.scrollY >= 1600 && window.scrollY < 2300) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass(null);
       setAboutClass(null);
       setProjectClass("project_style");
       setContactClass(null);
+      setTechnologiesClass(null);
     } else {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
@@ -47,9 +59,9 @@ export const NavBar = () => {
       setAboutClass(null);
       setProjectClass(null);
       setContactClass("contact_style");
+      setTechnologiesClass(null);
     }
   };
-
 
   useEffect(() => {
     controlNavbar();
@@ -59,6 +71,7 @@ export const NavBar = () => {
   return (
     <div className={navContainerClass}>
       <div className={navBar}>
+        {/* <div><img src={sam_logo} alt="logo"></img></div> */}
         <div className="nav_link">
           <div>
             <a className={homeClass} href="#home">
@@ -76,6 +89,13 @@ export const NavBar = () => {
 
         <div className="nav_link">
           <div>
+            <a className={technologiesClass} href="#technologies">
+              Technologies
+            </a>
+          </div>
+        </div>
+        <div className="nav_link">
+          <div>
             <a className={projectClass} href="#project">
               Projects
             </a>
@@ -89,9 +109,7 @@ export const NavBar = () => {
             </a>
           </div>
         </div>
-        <div className="nav_link">
-         
-        </div>
+        <div className="nav_link"></div>
       </div>
     </div>
   );

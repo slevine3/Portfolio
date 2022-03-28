@@ -78,8 +78,12 @@ a:visited {
   padding-bottom: 5px;
 }
 
-
-
+.technologies_style {
+  color: orange !important;
+  font-weight: bold;
+  border-bottom: 2px solid orange;
+  padding-bottom: 5px;
+}
 
 @media screen and (max-width: 1024px) {
   .nav_container1 {

@@ -1,6 +1,8 @@
 import Climber_Nation from "./Images/climberNation.PNG";
 import Wordle from "./Images/wordle.PNG";
 
+//1. On image hover add transparency/opacity with caption of project.
+//2. Change Wordle Clone links to link to Wordle project instead of memory game
 export const Project = () => {
   return (
     <div id="project" className="project_container">
@@ -40,7 +42,7 @@ export const Project = () => {
           </div>
         </div>
         <div className="project_display_conatainer">
-          <h2 className="project_name">Memory Game</h2>
+          <h2 className="project_name">Wordle Clone</h2>
           <div>
             <a href="https://slevine3.github.io/MemoryGame/">
               <img
@@ -50,7 +52,6 @@ export const Project = () => {
               ></img>
             </a>
           </div>
-
           <div className="project_links">
             <div>
               <a
@@ -69,7 +70,9 @@ export const Project = () => {
               </a>
             </div>
           </div>
+          
         </div>
+        
       </div>
     </div>
   );

@@ -5,8 +5,6 @@ import { Project } from "./components/Project";
 import { Contact } from "./components/Contact";
 import { Technology } from "./components/Technology";
 
-
-
 import "./components/NavBar.css";
 import "./components/Home.css";
 import "./components/About.css";
@@ -17,12 +15,14 @@ import "./components/Technology.css";
 function App() {
   return (
     <div>
+
       <NavBar />
       <Home />
       <About />
       <Technology />
       <Project />
       <Contact />
+      
     </div>
   );
 }
