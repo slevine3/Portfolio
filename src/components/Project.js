@@ -13,13 +13,12 @@ export const Project = () => {
         <div className="project_display_container">
           <h2 className="project_name">Climber Nation</h2>
           <div className="img_wrap">
-            <a>
-              <img
-                className="project_image"
-                src={Climber_Nation}
-                alt="Climber_Nation"
-              ></img>
-            </a>
+            <img
+              className="project_image"
+              src={Climber_Nation}
+              alt="Climber_Nation"
+            ></img>
+
             <div class="img_overlay">
               <a href="https://climber-nation.herokuapp.com/" class="img_title">
                 Full stack web application to assist rock climbing enthusiasts
@@ -50,26 +49,22 @@ export const Project = () => {
         <div className="project_display_container">
           <h2 className="project_name">Wordle Clone</h2>
           <div className="img_wrap">
-            <a>
-              <img
-                className="project_image"
-                src={Wordle}
-                alt="Climber_Nation"
-              ></img>
-            </a>
+            <img
+              className="project_image"
+              src={Wordle}
+              alt="Climber_Nation"
+            ></img>
+
             <div class="img_overlay">
               <a href="https://slevine3.github.io/Wordle/" class="img_title">
-              Fully functioning Wordle clone built with vanilla Javascript
+                Fully functioning Wordle clone built with vanilla Javascript
               </a>
             </div>
           </div>
 
           <div className="project_links">
             <div>
-              <a
-                className="project_subtitle"
-                href=""
-              >
+              <a className="project_subtitle" href="">
                 <h3>Live Demo</h3>
               </a>
             </div>
