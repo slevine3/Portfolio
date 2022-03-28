@@ -18,12 +18,13 @@
 }
 .logo {
   display: flex;
-  text-align: center;
-  grid-gap: 50px;
+  grid-gap: 100px;
 }
 .logo_box {
+  
   text-align: center;
-  width: 100px;
+  height: 150px;
+  width: 80px;
 }
 h4 {
   color: white;
@@ -35,7 +36,6 @@ img {
 .postgres_logo {
   background-color: #191919;
 }
-
 
 @media screen and (max-width: 1000px) {
   .logo_container {
@@ -52,7 +52,6 @@ img {
     display: flex;
     justify-content: center;
     border-left: none;
-
   }
 
   .logo {

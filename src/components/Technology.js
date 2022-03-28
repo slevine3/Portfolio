@@ -16,16 +16,47 @@ import { useState } from "react";
 //5. Try to figure out how to add cursor trail
 
 export const Technology = () => {
-  const [hoverJavascript, setHoverJavascript] = useState("none");
-  const [hoverHTML, setHoverHTML] = useState("none");
-  const [hoverCSS, setHoverCSS] = useState("none");
-  const [hoverReact, setHoverReact] = useState("none");
-  const [hoverRedux, setHoverRedux] = useState("none");
-  const [hoverNode, setHoverNode] = useState("none");
-  const [hoverPostgres, setHoverPostgres] = useState("none");
-  const [hoverHeroku, setHoverHeroku] = useState("none");
-  const [hoverGit, setHoverGit] = useState("none");
+  const [javascriptTitle, setJavascriptTitle] = useState({ display: "none" });
+  const [javascriptHeight, setJavascriptHeight] = useState(null);
 
+  const [htmlTitle, setHtmlTitle] = useState({ display: "none" });
+  const [htmlHeight, setHtmlHeight] = useState(null);
+
+  const [cssTitle, setCssTitle] = useState({ display: "none" });
+  const [cssHeight, setCssHeight] = useState(null);
+
+  const [reactTitle, setReactTitle] = useState({ display: "none" });
+  const [reactHeight, setReactHeight] = useState(null);
+
+  const [reduxTitle, setReduxTitle] = useState({ display: "none" });
+  const [reduxHeight, setReduxHeight] = useState(null);
+
+  const [nodeTitle, setNodeTitle] = useState({ display: "none" });
+  const [nodeHeight, setNodeHeight] = useState(null);
+
+  const [postgresTitle, setPostgresTitle] = useState({ display: "none" });
+  const [postgresHeight, setPostgresHeight] = useState(null);
+
+  const [herokuTitle, setHerokuTitle] = useState({ display: "none" });
+  const [herokuHeight, setHerokuHeight] = useState(null);
+
+  const handleJavascriptEnter = () => {
+    setJavascriptTitle({ display: "block" });
+    setJavascriptHeight({ height: "80px" });
+  };
+  const handleJavascriptLeave = () => {
+    setJavascriptTitle({ display: "none" });
+    setJavascriptHeight({ height: "60px" });
+  };
+
+  const handleHtmlEnter = () => {
+    setHtmlTitle({ display: "block" });
+    setHtmlHeight({ height: "80px" });
+  };
+  const handleHtmlLeave = () => {
+    setHtmlTitle({ display: "none" });
+    setHtmlHeight({ height: "60px" });
+  };
 
   return (
     <div id="technologies" className="technology_container">
@@ -36,22 +67,24 @@ export const Technology = () => {
         <div className="logo">
           <div className="logo_box">
             <img
-              onMouseEnter={() => setHoverJavascript("block")}
-              onMouseLeave={() => setHoverJavascript("none")}
+              onMouseEnter={() => handleJavascriptEnter()}
+              onMouseLeave={() => handleJavascriptLeave()}
+              style={javascriptHeight}
               src={js_logo}
               alt="js_-logo"
             ></img>
-            <h4 style={{ display: hoverJavascript }}>Javascript</h4>
+            <h4 style={javascriptTitle}>Javascript</h4>
           </div>
 
           <div className="logo_box">
             <img
-              onMouseEnter={() => setHoverHTML("block")}
-              onMouseLeave={() => setHoverHTML("none")}
+              onMouseEnter={() => handleHtmlEnter()}
+              onMouseLeave={() => handleHtmlLeave()}
+              style={htmlHeight}
               src={html_logo}
               alt="html-logo"
             ></img>
-            <h4 style={{ display: hoverHTML }}>HTML5</h4>
+            <h4 style={htmlTitle}>HTML5</h4>
           </div>
 
           <div className="logo_box">

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import sam_logo from "./Images/sam_logo.png";
+// import sam_logo from "./Images/sam_logo.png";
 
 export const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
@@ -71,7 +71,7 @@ export const NavBar = () => {
   return (
     <div className={navContainerClass}>
       <div className={navBar}>
-        {/* <div><img src={sam_logo} alt="logo"></img></div> */}
+        {/* <div><img className="nav_logo" src={sam_logo} alt="logo"></img></div> */}
         <div className="nav_link">
           <div>
             <a className={homeClass} href="#home">
