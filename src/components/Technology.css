@@ -18,7 +18,7 @@
 }
 .logo {
   display: flex;
-  grid-gap: 100px;
+  grid-gap: 80px;
 }
 .logo_box {
   
@@ -28,6 +28,8 @@
 }
 h4 {
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 img {
   height: 60px;

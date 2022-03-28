@@ -9,9 +9,7 @@ import heroku_logo from "./Images/heroku-logo.png";
 import github_logo from "./Images/github-logo.png";
 
 import { useState } from "react";
-//1. Hide Technology names - Display on hover of image.
-//2. On hover make image icon larger
-//3. Explore secondary fonts for additional text (look for Sans - Serif)
+
 //4. Add 3 more logo icons in technology stack.
 //5. Try to figure out how to add cursor trail
 
