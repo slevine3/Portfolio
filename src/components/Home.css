@@ -18,7 +18,8 @@
 .home_title {
   display: flex;
   justify-content: center;
-  width: 95vw;
+  position: static;
+  width: 97vw;
   font-size: 92px;
   font-weight: bold;
   margin-top: -150px;
@@ -113,7 +114,7 @@
     align-items: center;
     font-size: 36px;
   }
-  .home_subtitle{
+  .home_subtitle {
     margin-top: 0;
   }
   .typewritter {
