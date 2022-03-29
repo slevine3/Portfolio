@@ -5,6 +5,7 @@
   height: 75px;
   position: fixed;
   padding-left: 20px;
+  width: 100vw;
 }
 .nav_container2 {
   display: flex;
@@ -14,11 +15,12 @@
   position: fixed;
   height: 60px;
   padding-left: 20px;
+  width: 100vw;
 }
 
 .nav_bar1 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   margin-right: 20px;
   width: 100vw;
@@ -28,7 +30,7 @@
 }
 .nav_bar2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   margin-right: 20px;
   font-size: 22px;
@@ -51,6 +53,7 @@ a:visited {
 .nav_logo{
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   height: 50px;
   width: auto;
   margin-right: 20px;
@@ -87,11 +90,11 @@ a:visited {
   padding-bottom: 5px;
 }
 
-@media screen and (max-width: 1024px) {
-  .nav_container1 {
-    display: none;
+@media screen and (max-width: 740px) {
+  .nav_bar1{
+    font-size: 16px;
   }
-  .nav_container2 {
-    display: none;
+  .nav_bar2{
+    font-size: 16px;
   }
 }

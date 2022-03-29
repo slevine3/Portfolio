@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 1000px) {
   .about_description {
-    font-size: 18px;
+    font-size: 19px;
   }
   .profile_pic {
     height: 425px;
@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 820px) {
   .about_container {
     height: 625px;
   }

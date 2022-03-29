@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import sam_logo from "./Images/sam_logo.png";
 
+
+//1. Make Navbar appear on mobile version. Dont make it disappear**
+//2. Push navbar links to right side of screen
+
+
 export const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
   const [navBar, setNavBar] = useState(null);
@@ -70,8 +75,9 @@ export const NavBar = () => {
 
   return (
     <div className={navContainerClass}>
+      <div><a href="#home"><img className="nav_logo" src={sam_logo} alt="logo"></img></a></div>
       <div className={navBar}>
-        <div><a href="#home"><img className="nav_logo" src={sam_logo} alt="logo"></img></a></div>
+        
         <div className="nav_link">
           <div>
             <a className={homeClass} href="#home">

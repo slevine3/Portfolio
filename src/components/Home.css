@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   color: orange;
-  font-size: 36px;
+  font-size: 52px;
   margin-left: 15px;
 }
 .button_container {
@@ -60,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 250px;
   padding: 6px 14px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
   border-radius: 6px;
@@ -74,6 +74,7 @@
   touch-action: manipulation;
   background-color: rgb(28, 136, 236);
   cursor: pointer;
+  font-size: 22px;
 }
 
 .button-11:focus {

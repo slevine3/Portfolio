@@ -1,7 +1,8 @@
 import Climber_Nation from "./Images/climberNation.PNG";
 import Wordle from "./Images/wordle.PNG";
 
-//1. On image hover add transparency/opacity with caption of project.
+//1. Add caption of project to image hover
+//2. Blurr image background on hover.
 
 export const Project = () => {
   return (
@@ -11,7 +12,7 @@ export const Project = () => {
       </div>
       <div className="all_project_container">
         <div className="project_display_container">
-          <h2 className="project_name">Climber Nation</h2>
+          {/* <h2 className="project_name">Climber Nation</h2> */}
           <div className="img_wrap">
             <img
               className="project_image"
@@ -19,8 +20,11 @@ export const Project = () => {
               alt="Climber_Nation"
             ></img>
 
-            <div class="img_overlay">
-              <a href="https://climber-nation.herokuapp.com/" class="img_title">
+            <div class="img_overlay image_overlay_blur">
+              <a href="https://climber-nation.herokuapp.com/" className="img_title">
+                Climber Nation
+              </a>
+              <a href="https://climber-nation.herokuapp.com/" className="img_description">
                 Full stack web application to assist rock climbing enthusiasts
                 in finding climbing partners.
               </a>
@@ -47,7 +51,7 @@ export const Project = () => {
           </div>
         </div>
         <div className="project_display_container">
-          <h2 className="project_name">Wordle Clone</h2>
+          {/* <h2 className="project_name">Wordle Clone</h2> */}
           <div className="img_wrap">
             <img
               className="project_image"
@@ -55,16 +59,22 @@ export const Project = () => {
               alt="Climber_Nation"
             ></img>
 
-            <div class="img_overlay">
-              <a href="https://slevine3.github.io/Wordle/" class="img_title">
-                Fully functioning Wordle clone built with vanilla Javascript
+            <div class="img_overlay image_overlay_blur">
+            <a href="https://slevine3.github.io/Wordle/" class="img_title">
+                Wordle Clone
+              </a>
+              <a href="https://slevine3.github.io/Wordle/" class="img_description">
+                Fully functioning game built with vanilla Javascript
               </a>
             </div>
           </div>
 
           <div className="project_links">
             <div>
-              <a  className="project_subtitle" href="https://www.loom.com/my-videos">
+              <a
+                className="project_subtitle"
+                href="https://www.loom.com/my-videos"
+              >
                 <h3>Live Demo</h3>
               </a>
             </div>
