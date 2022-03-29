@@ -2,10 +2,6 @@ import { useState, useEffect } from "react";
 import resume from "./Resume/Sam-Levine_Resume.pdf";
 import { saveAs } from "file-saver";
 
-//1. Make "Download Resume" font size the same as Navbar.
-//2. Make button larger
-//3. Make Typwritter larger to scale  so it looks good.
-
 
 export const Home = () => {
   const [index, setIndex] = useState(0);

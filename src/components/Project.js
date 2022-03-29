@@ -1,9 +1,6 @@
 import Climber_Nation from "./Images/climberNation.PNG";
 import Wordle from "./Images/wordle.PNG";
 
-//1. Add caption of project to image hover
-//2. Blurr image background on hover.
-
 export const Project = () => {
   return (
     <div id="project" className="project_container">
@@ -12,7 +9,7 @@ export const Project = () => {
       </div>
       <div className="all_project_container">
         <div className="project_display_container">
-          {/* <h2 className="project_name">Climber Nation</h2> */}
+       
           <div className="img_wrap">
             <img
               className="project_image"
@@ -51,7 +48,7 @@ export const Project = () => {
           </div>
         </div>
         <div className="project_display_container">
-          {/* <h2 className="project_name">Wordle Clone</h2> */}
+         
           <div className="img_wrap">
             <img
               className="project_image"

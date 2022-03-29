@@ -9,8 +9,7 @@ import heroku_logo from "./Images/heroku-logo.png";
 import github_logo from "./Images/github-logo.png";
 
 import { useState } from "react";
-//4. Add 3 more logo icons in technology stack.
-//5. Try to figure out how to add cursor trail
+//Add 3 more logo icons in technology stack.
 
 export const Technology = () => {
   const [javascriptTitle, setJavascriptTitle] = useState({ display: "none" });
