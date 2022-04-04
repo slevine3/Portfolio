@@ -9,7 +9,7 @@ import heroku_logo from "./Images/heroku-logo.png";
 import github_logo from "./Images/github-logo.png";
 
 import { useState } from "react";
-//Add 3 more logo icons in technology stack.
+
 
 export const Technology = () => {
   const [javascriptTitle, setJavascriptTitle] = useState({ display: "none" });

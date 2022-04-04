@@ -32,6 +32,14 @@ export const Project = () => {
             <div>
               <a
                 className="project_subtitle"
+                href="https://climber-nation.herokuapp.com/"
+              >
+                <h3>Live Site</h3>
+              </a>
+            </div>
+            <div>
+              <a
+                className="project_subtitle"
                 href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
               >
                 <h3>Demo Video</h3>
@@ -67,6 +75,14 @@ export const Project = () => {
           </div>
 
           <div className="project_links">
+          <div>
+              <a
+                className="project_subtitle"
+                href="https://slevine3.github.io/Wordle/"
+              >
+                <h3>Live Site</h3>
+              </a>
+            </div>
             <div>
               <a
                 className="project_subtitle"

@@ -29,7 +29,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 60px;
   cursor: pointer;
   width: 135px;
   height: 50px;
@@ -38,7 +37,9 @@
 
 .project_links {
   display: flex;
-  padding-left: 20px;
+  justify-content: center;
+  gap: 40px;
+
 }
 
 .img_wrap {
@@ -113,6 +114,9 @@
   }
   .project_display_container {
     margin-left: -30px;
+  }
+  .project_links{
+    gap: 0;
   }
 }
 
