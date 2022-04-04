@@ -34,7 +34,7 @@ export const Project = () => {
                 className="project_subtitle"
                 href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
               >
-                <h3>Live Demo</h3>
+                <h3>Demo Video</h3>
               </a>
             </div>
             <div>
@@ -72,7 +72,7 @@ export const Project = () => {
                 className="project_subtitle"
                 href="https://www.loom.com/my-videos"
               >
-                <h3>Live Demo</h3>
+                <h3>Demo Video</h3>
               </a>
             </div>
             <div>
