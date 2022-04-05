@@ -15,7 +15,7 @@ export const Home = () => {
   ];
 
   const saveFile = () => {
-    saveAs(resume);
+    saveAs(resume, 'Sam Levine Resume');
   };
 
   useEffect(() => {
