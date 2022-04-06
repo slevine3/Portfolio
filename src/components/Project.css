@@ -104,6 +104,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .project_container {
+    height: 700px;
+  }
   .project_image {
     margin-left: 100px;
     height: 150px;
