@@ -12,7 +12,7 @@
   grid-gap: 120px;
   padding-top: 75px;
 }
-.project_display_conatainer {
+.project_display_container {
   display: flex;
   flex-direction: column;
 }

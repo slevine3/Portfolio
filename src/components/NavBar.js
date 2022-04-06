@@ -49,7 +49,7 @@ export const NavBar = () => {
       setProjectClass(null);
       setContactClass(null);
       setTechnologiesClass("technologies_style");
-    } else if (window.scrollY >= 1600 && window.scrollY < 2300) {
+    } else if (window.scrollY >= 1600 && window.scrollY < 2500) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass(null);
@@ -57,7 +57,7 @@ export const NavBar = () => {
       setProjectClass("project_style");
       setContactClass(null);
       setTechnologiesClass(null);
-    } else if (window.scrollY >= 2300) {
+    } else if (window.scrollY >= 2500) {
       setNavContainerClass("nav_container2");
       setNavBar("nav_bar2");
       setHomeClass(null);
