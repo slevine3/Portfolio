@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .nav_container1 {
   display: flex;
   align-items: center;
