@@ -2,10 +2,6 @@ import { useState, useEffect } from "react";
 import sam_logo from "./Images/sam_logo.png";
 
 
-//1. Make Navbar appear on mobile version. Dont make it disappear**
-//2. Push navbar links to right side of screen
-
-
 export const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
   const [navBar, setNavBar] = useState(null);
@@ -16,7 +12,7 @@ export const NavBar = () => {
   const [contactClass, setContactClass] = useState(null);
 
   const controlNavbar = () => {
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY >= 0 && window.scrollY < 20) {
       setNavContainerClass("nav_container1");
       setNavBar("nav_bar1");

@@ -18,7 +18,7 @@ export const Project = () => {
               alt="Climber_Nation"
             ></img>
 
-            <div class="img_overlay image_overlay_blur">
+            <div className="img_overlay image_overlay_blur">
               <a href="https://climber-nation.herokuapp.com/" className="img_title">
                 Climber Nation
               </a>
@@ -65,11 +65,11 @@ export const Project = () => {
               alt="Wordle"
             ></img>
 
-            <div class="img_overlay image_overlay_blur">
-            <a href="https://slevine3.github.io/Wordle/" class="img_title">
+            <div className="img_overlay image_overlay_blur">
+            <a href="https://slevine3.github.io/Wordle/" className="img_title">
                 Wordle Clone
               </a>
-              <a href="https://slevine3.github.io/Wordle/" class="img_description">
+              <a href="https://slevine3.github.io/Wordle/" className="img_description">
                 Fully functioning game built with vanilla Javascript
               </a>
             </div>
@@ -113,7 +113,7 @@ export const Project = () => {
               alt="Memory Game"
             ></img>
 
-            <div class="img_overlay image_overlay_blur">
+            <div className="img_overlay image_overlay_blur">
               <a href="https://slevine3.github.io/MemoryGame/" className="img_title">
               MemoryGame
               </a>

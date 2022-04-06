@@ -2,28 +2,20 @@ import { useState, useEffect } from "react";
 import resume from "./Resume/Sam-Levine_Resume.pdf";
 import { saveAs } from "file-saver";
 
-
 export const Home = () => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
   const [reverse, setReverse] = useState(false);
-  const words = [
-    "<Programmer />",
-    "<Developer />",
-    "<Problem Solver />"
-  ];
+
+  const words = ["<Programmer />", "<Developer />", "<Problem Solver />"];
 
   const saveFile = () => {
-    saveAs(resume, 'Sam Levine Resume');
+    saveAs(resume, "Sam Levine Resume");
   };
 
   useEffect(() => {
-    const words = [
-      "<Programmer />",
-      "<Developer />",
-      "<Problem Solver />" 
-    ];
+    const words = ["<Programmer />", "<Developer />", "<Problem Solver />"];
     if (index === words.length - 1 && subIndex === words[index].length) {
       return;
     }
@@ -62,7 +54,6 @@ export const Home = () => {
     <div id="home" className="home_container">
       <div className="home_body">
         <p className="home_title">Hi, I'm Sam Levine</p>
-
         <div className="home_subtitle">
           <p className="typewritter">
             {" "}
