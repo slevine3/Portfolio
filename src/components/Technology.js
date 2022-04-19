@@ -138,7 +138,7 @@ export const Technology = () => {
               src={js_logo}
               alt="js_-logo"
             ></img>
-            <h4 style={javascriptTitle}>Javascript</h4>
+            <h4 style={javascriptTitle}>JavaScript</h4>
           </div>
 
           <div className="logo_box">
