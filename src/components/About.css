@@ -79,3 +79,12 @@
     width: auto;
   }
 }
+
+
+@media screen and (max-width: 400px) {
+  .profile_pic{
+    margin-top: 1%;
+    height: 250px;
+    width: auto;
+  }
+}
