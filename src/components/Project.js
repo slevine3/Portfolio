@@ -1,6 +1,6 @@
 import Climber_Nation from "./Images/climberNation.PNG";
 import Wordle from "./Images/wordle.PNG";
-
+import fashionfirst from './Images/fashionfirst.PNG'
 
 export const Project = () => {
   return (
@@ -13,23 +13,22 @@ export const Project = () => {
           <div className="img_wrap">
             <img
               className="project_image"
-              src={Climber_Nation}
+              src={fashionfirst}
               alt="Climber_Nation"
             ></img>
 
             <div className="img_overlay image_overlay_blur">
               <a
-                href="https://climber-nation.herokuapp.com/"
+                href="https://fashionfirst.herokuapp.com/"
                 className="img_title"
               >
-                Climber Nation
+             FashionFirst
               </a>
               <a
-                href="https://climber-nation.herokuapp.com/"
+                href="https://fashionfirst.herokuapp.com/"
                 className="img_description"
               >
-                Full stack web application to assist rock climbing enthusiasts
-                in finding climbing partners.
+                Full stack e-commerce application for clothing
               </a>
             </div>
           </div>
@@ -39,7 +38,7 @@ export const Project = () => {
             <div>
               <a
                 className="project_subtitle"
-                href="https://climber-nation.herokuapp.com/"
+                href="https://fashionfirst.herokuapp.com/"
               >
                 <h3>Live Site</h3>
               </a>
@@ -47,7 +46,7 @@ export const Project = () => {
             <div>
               <a
                 className="project_subtitle"
-                href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
+                href=""
               >
                 <h3>Demo Video</h3>
               </a>
@@ -55,7 +54,7 @@ export const Project = () => {
             <div>
               <a
                 className="project_subtitle"
-                href="https://github.com/slevine3/Climber-Nation"
+                href="https://github.com/slevine3/Fashion-First"
               >
                 <h3>Source Code</h3>
               </a>
