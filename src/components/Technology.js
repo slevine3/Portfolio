@@ -7,9 +7,11 @@ import node_logo from "./Images/node-logo.png";
 import postgres_logo from "./Images/postgres-logo.png";
 import heroku_logo from "./Images/heroku-logo.png";
 import github_logo from "./Images/github-logo.png";
+import aws_logo from "./Images/aws-logo.png";
+import firebase_logo from "./Images/firebase_logo.png";
+import mongo_logo from "./Images/mongo_logo.png";
 
 import { useState } from "react";
-
 
 export const Technology = () => {
   const [javascriptTitle, setJavascriptTitle] = useState({ display: "none" });
@@ -38,6 +40,18 @@ export const Technology = () => {
 
   const [gitTitle, setGitTitle] = useState({ display: "none" });
   const [gitHeight, setGitHeight] = useState(null);
+
+  const [awsTitle, setAwsTitle] = useState({ display: "none" });
+  const [awsHeight, setAwsHeight] = useState(null);
+
+  const [firebaseTitle, setFirebaseTitle] = useState({ display: "none" });
+  const [firebaseHeight, setFirebaseHeight] = useState(null);
+
+  const [mongoTitle, setMongoTitle] = useState({ display: "none" });
+  const [mongoHeight, setMongoHeight] = useState({
+    width: "auto",
+    height: "50px",
+  });
 
   const handleJavascriptEnter = () => {
     setJavascriptTitle({ display: "block" });
@@ -119,12 +133,35 @@ export const Technology = () => {
     setGitTitle({ display: "none" });
     setGitHeight({ height: "60px" });
   };
+  const handleAwsEnter = () => {
+    setAwsTitle({ display: "block" });
+    setAwsHeight({ height: "80px" });
+  };
+  const handleAwsLeave = () => {
+    setAwsTitle({ display: "none" });
+    setAwsHeight({ height: "60px" });
+  };
 
+  const handleFirebaseEnter = () => {
+    setFirebaseTitle({ display: "block" });
+    setFirebaseHeight({ height: "80px" });
+  };
+  const handleFireBaseLeave = () => {
+    setFirebaseTitle({ display: "none" });
+    setFirebaseHeight({ height: "60px" });
+  };
 
+  const handleMongoEnter = () => {
+    setMongoTitle({ display: "block" });
+    setMongoHeight({ height: "70px", width: "auto" });
+  };
+  const handleMongoLeave = () => {
+    setMongoTitle({ display: "none" });
+    setMongoHeight({ height: "50px", width: "auto" });
+  };
 
   return (
     <div id="technologies" className="technology_container">
-
       <div>
         <h1 className="technology_title">TECHNOLOGY STACK</h1>
       </div>
@@ -228,6 +265,38 @@ export const Technology = () => {
               alt="heroku-logo"
             ></img>
             <h4 style={gitTitle}>Github</h4>
+          </div>
+        </div>
+        <div className="logo">
+          <div className="logo_box">
+            <img
+              onMouseEnter={() => handleAwsEnter()}
+              onMouseLeave={() => handleAwsLeave()}
+              style={awsHeight}
+              src={aws_logo}
+              alt="aws-logo"
+            ></img>
+            <h4 style={awsTitle}>AWS</h4>
+          </div>
+          <div className="logo_box">
+            <img
+              onMouseEnter={() => handleFirebaseEnter()}
+              onMouseLeave={() => handleFireBaseLeave()}
+              style={firebaseHeight}
+              src={firebase_logo}
+              alt="firebase-logo"
+            ></img>
+            <h4 style={firebaseTitle}>Firebase</h4>
+          </div>
+          <div className="logo_box">
+            <img
+              onMouseEnter={() => handleMongoEnter()}
+              onMouseLeave={() => handleMongoLeave()}
+              style={mongoHeight}
+              src={mongo_logo}
+              alt="mongoDB-logo"
+            ></img>
+            <h4 style={mongoTitle}>MongoDB</h4>
           </div>
         </div>
       </div>
