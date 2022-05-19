@@ -46,7 +46,7 @@ export const Project = () => {
             <div>
               <a
                 className="project_subtitle"
-                href=""
+                href="https://www.loom.com/looms/videos"
               >
                 <h3>Demo Video</h3>
               </a>
