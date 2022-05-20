@@ -14,7 +14,7 @@ export const About = () => {
           software engineer.
           <br></br>
           <br></br>
-          My favorite project has been Climber Nation, where I had the
+          My favorite project has been FashionFirst, where I had the
           opportunity to build a full stack web application, complete with a
           backend database, security features, and dynamic frontend design.
         </div>

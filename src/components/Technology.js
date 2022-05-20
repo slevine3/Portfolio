@@ -50,7 +50,7 @@ export const Technology = () => {
   const [mongoTitle, setMongoTitle] = useState({ display: "none" });
   const [mongoHeight, setMongoHeight] = useState({
     width: "auto",
-    height: "50px",
+    height: "40px",
   });
 
   const handleJavascriptEnter = () => {
@@ -153,11 +153,11 @@ export const Technology = () => {
 
   const handleMongoEnter = () => {
     setMongoTitle({ display: "block" });
-    setMongoHeight({ height: "70px", width: "auto" });
+    setMongoHeight({ height: "45px", width: "auto" });
   };
   const handleMongoLeave = () => {
     setMongoTitle({ display: "none" });
-    setMongoHeight({ height: "50px", width: "auto" });
+    setMongoHeight({ height: "40px", width: "auto" });
   };
 
   return (
@@ -280,16 +280,6 @@ export const Technology = () => {
           </div>
           <div className="logo_box">
             <img
-              onMouseEnter={() => handleFirebaseEnter()}
-              onMouseLeave={() => handleFireBaseLeave()}
-              style={firebaseHeight}
-              src={firebase_logo}
-              alt="firebase-logo"
-            ></img>
-            <h4 style={firebaseTitle}>Firebase</h4>
-          </div>
-          <div className="logo_box">
-            <img
               onMouseEnter={() => handleMongoEnter()}
               onMouseLeave={() => handleMongoLeave()}
               style={mongoHeight}
@@ -297,6 +287,16 @@ export const Technology = () => {
               alt="mongoDB-logo"
             ></img>
             <h4 style={mongoTitle}>MongoDB</h4>
+          </div>
+          <div className="logo_box" >
+            <img
+              onMouseEnter={() => handleFirebaseEnter()}
+              onMouseLeave={() => handleFireBaseLeave()}
+              style={firebaseHeight}
+              src={firebase_logo}
+              alt="firebase-logo"
+            ></img>
+            <h4 style={firebaseTitle}>Firebase</h4>
           </div>
         </div>
       </div>
