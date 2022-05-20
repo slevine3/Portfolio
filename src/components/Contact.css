@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 
-input {
+input, textarea {
   margin-bottom: 20px;
   width: 250px;
   height: 25px;

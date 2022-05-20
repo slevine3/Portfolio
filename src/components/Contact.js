@@ -22,7 +22,7 @@ export const Contact = () => {
             <lable htmlFor="message">Message: </lable>
             <textarea className="textarea" name="message"></textarea>
 
-            <button  className="button-12">Submit</button>
+            <button  className="button-12" >Submit</button>
           </form>
         </div>
         <div className="contact_logos">
