@@ -13,9 +13,8 @@
   padding-top: 75px;
   align-items: center;
   justify-content: center;
-  
 }
-.project_title{
+.project_title {
   margin-bottom: 45px;
 }
 .project_row {
@@ -134,7 +133,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .project_row{
+  .project_row {
     flex-direction: column;
   }
   .project_image {
@@ -144,6 +143,7 @@
   }
   .project_subtitle {
     font-size: 14px;
+    width: 120px;
   }
   .project_links {
     padding-left: 0px;
@@ -163,7 +163,7 @@
   }
   .project_display_container {
     margin-left: 0px;
-   
+    width: 100vw;
   }
   .project_name {
     padding-left: 40px;
