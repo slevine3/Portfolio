@@ -71,13 +71,13 @@ export const Project = () => {
 
             <div className="img_overlay image_overlay_blur">
               <a
-                href="https://fashionfirst-admin-dashboard.netlify.app/login"
+                href="https://fashionfirst-admin-dashboard.netlify.app/"
                 className="img_title"
               >
                 FashionFirst - Admin Dashboard
               </a>
               <a
-                href="https://fashionfirst-admin-dashboard.netlify.app/login"
+                href="https://fashionfirst-admin-dashboard.netlify.app/"
                 className="img_description"
               >
                 Tool for viewing data analytics and performing CRUD operations.
@@ -87,7 +87,7 @@ export const Project = () => {
 
           <div className="project_links">
             <div>
-              <a className="project_subtitle" href="https://fashionfirst-admin-dashboard.netlify.app/login">
+              <a className="project_subtitle" href="https://fashionfirst-admin-dashboard.netlify.app/">
                 <h3>Live Site</h3>
               </a>
             </div>
