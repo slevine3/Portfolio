@@ -12,7 +12,13 @@ import "./components/Project.css";
 import "./components/Contact.css";
 import "./components/Technology.css";
 
-function App() {
+import LogRocket from "logrocket";
+import { useEffect } from "react";
+
+const App = () => {
+  useEffect(() => {
+    LogRocket.init(process.env.REACT_APP_LOG_ROCKET);
+  });
   return (
     <div>
       <NavBar />
@@ -23,6 +29,6 @@ function App() {
       <Contact />
     </div>
   );
-}
+};
 
 export default App;

@@ -43,14 +43,14 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 className="project_subtitle"
                 href="https://www.loom.com/looms/videos"
               >
                 <h3>Demo Video</h3>
               </a>
-            </div>
+            </div> */}
             <div>
               <a
                 className="project_subtitle"
@@ -91,14 +91,14 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 className="project_subtitle"
                 href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
               >
                 <h3>Demo Video</h3>
               </a>
-            </div>
+            </div> */}
             <div>
               <a
                 className="project_subtitle"
@@ -145,14 +145,14 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 className="project_subtitle"
                 href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
               >
                 <h3>Demo Video</h3>
               </a>
-            </div>
+            </div> */}
             <div>
               <a
                 className="project_subtitle"
@@ -192,14 +192,14 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 className="project_subtitle"
                 href="https://www.loom.com/share/42e9bfe2e1884a3fafc297f25dd0e8e0"
               >
                 <h3>Demo Video</h3>
               </a>
-            </div>
+            </div> */}
             <div>
               <a
                 className="project_subtitle"

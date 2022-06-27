@@ -19,7 +19,7 @@
 }
 .project_row {
   display: flex;
-  gap: 100px;
+  gap: 200px;
   margin-bottom: 100px;
 }
 .project_display_container {
@@ -47,7 +47,7 @@
 
 .project_links {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 40px;
 }
 
@@ -118,8 +118,8 @@
   }
   .project_image {
     margin-left: 100px;
-    height: 150px;
-    width: auto;
+    height: auto;
+    width: 100%;
   }
   .project_subtitle {
     font-size: 14px;
