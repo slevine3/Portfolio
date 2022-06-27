@@ -16,11 +16,11 @@ import LogRocket from "logrocket";
 
 import { useEffect } from "react";
 
-
 const App = () => {
   useEffect(() => {
-    LogRocket.init(process.env.REACT_APP_LOG_ROCKET);
+    LogRocket.init("amy4o7/portfolio-glsqq");
   });
+
   return (
     <div>
       <NavBar />
