@@ -1,23 +1,23 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 .nav_container1 {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #101010;
   height: 75px;
   position: fixed;
-  padding-left: 20px;
   width: 100vw;
 }
 .nav_container2 {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #191919;
   height: 50px;
   position: fixed;
   height: 60px;
-  padding-left: 20px;
   width: 100vw;
   z-index: 1;
 }
@@ -44,7 +44,7 @@ html{
 }
 
 .nav_link {
-  margin-right: 30px;
+  margin-left: 30px;
   color: white;
 }
 a {
@@ -54,13 +54,13 @@ a {
 a:visited {
   color: white;
 }
-.nav_logo{
+.nav_logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 50px;
   width: auto;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 .home_style {
   color: orange !important;
@@ -95,30 +95,30 @@ a:visited {
 }
 
 @media screen and (max-width: 740px) {
-  .nav_bar1{
+  .nav_bar1 {
     font-size: 17px;
   }
-  .nav_bar2{
+  .nav_bar2 {
     font-size: 17px;
   }
-  .nav_logo{
+  .nav_logo {
     display: none;
   }
-  .nav_link{
+  .nav_link {
     margin-right: 20px;
   }
 }
 @media screen and (max-width: 400px) {
-  .nav_bar1{
+  .nav_bar1 {
     font-size: 13px;
   }
-  .nav_bar2{
+  .nav_bar2 {
     font-size: 13px;
   }
-  .nav_logo{
+  .nav_logo {
     display: none;
   }
-  .nav_link{
+  .nav_link {
     margin-right: 15px;
   }
 }

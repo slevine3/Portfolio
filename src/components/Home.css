@@ -1,5 +1,7 @@
 .home_container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 100px;
   height: 600px;
   background-image: linear-gradient(
@@ -12,14 +14,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-top: 120px;
 }
 .home_title {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: static;
-  width: 97vw;
+  /* width: 97vw; */
   font-size: 92px;
   font-weight: bold;
   margin-top: -150px;
@@ -33,11 +36,11 @@
   margin-top: -75px;
   height: 150px;
 }
-.home_body {
+/* .home_body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 .home_image {
   display: flex;
   flex-direction: column;
@@ -54,7 +57,7 @@
 .button_container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .button-11 {
   display: flex;

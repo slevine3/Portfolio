@@ -13,7 +13,9 @@ import "./components/Contact.css";
 import "./components/Technology.css";
 
 import LogRocket from "logrocket";
+
 import { useEffect } from "react";
+
 
 const App = () => {
   useEffect(() => {
