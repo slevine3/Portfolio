@@ -5,8 +5,7 @@
   padding-top: 45px;
 }
 .technology_title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: white;
 }
 .logo_container {

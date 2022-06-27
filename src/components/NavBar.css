@@ -95,30 +95,23 @@ a:visited {
 }
 
 @media screen and (max-width: 740px) {
+  .nav_container1 {
+    display: none;
+  }
+  .nav_container2 {
+    display: none;
+  }
   .nav_bar1 {
-    font-size: 17px;
+    display: none;
   }
   .nav_bar2 {
-    font-size: 17px;
+    display: none;
   }
+
   .nav_logo {
     display: none;
   }
   .nav_link {
     margin-right: 20px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .nav_bar1 {
-    font-size: 13px;
-  }
-  .nav_bar2 {
-    font-size: 13px;
-  }
-  .nav_logo {
-    display: none;
-  }
-  .nav_link {
-    margin-right: 15px;
   }
 }
