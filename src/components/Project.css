@@ -158,10 +158,11 @@
   .project_row {
     flex-direction: column;
     margin-bottom: 0px;
+
   }
   .project_image {
-    height: 200px;
-    width: auto;
+    width: 62vw;
+    height: auto;
   }
   .img_overlay {
     width: 100%;
@@ -176,7 +177,7 @@
     margin-bottom: 50px;
   }
   .project_container {
-    height: 1900px;
+    min-height: 1500px;
   }
   .all_project_container {
     display: flex;
