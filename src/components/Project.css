@@ -158,7 +158,6 @@
   .project_row {
     flex-direction: column;
     margin-bottom: 0px;
-
   }
   .project_image {
     width: 62vw;
@@ -194,6 +193,10 @@
     padding-left: 40px;
   }
   .img_title {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .img_description {
+    font-size: 14px;
   }
 }
