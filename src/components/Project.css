@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 1500px) {
   .project_container {
-    height: 900px;
+    height: 1300px;
   }
   .project_row {
     display: flex;
@@ -176,7 +176,7 @@
     margin-bottom: 50px;
   }
   .project_container {
-    height: 1300px;
+    height: 1900px;
   }
   .all_project_container {
     display: flex;
