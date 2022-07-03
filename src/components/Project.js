@@ -2,6 +2,8 @@ import Climber_Nation from "./Images/climberNation.PNG";
 import Wordle from "./Images/wordle.PNG";
 import fashionfirst from "./Images/fashionfirst.PNG";
 import admindashboard from "./Images/admindashboard.PNG";
+import schoolDismissal from "./Images/School_Dismissal.PNG";
+import taskScheduler from "./Images/task_scheduler.PNG";
 
 export const Project = () => {
   return (
@@ -29,7 +31,7 @@ export const Project = () => {
                 href="https://fashionfirst.herokuapp.com/"
                 className="img_description"
               >
-                Full stack e-commerce application for clothing
+                Full stack ecommerce web application for clothes shopping
               </a>
             </div>
           </div>
@@ -43,14 +45,7 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            {/* <div>
-              <a
-                className="project_subtitle"
-                href="https://www.loom.com/looms/videos"
-              >
-                <h3>Demo Video</h3>
-              </a>
-            </div> */}
+
             <div>
               <a
                 className="project_subtitle"
@@ -80,29 +75,116 @@ export const Project = () => {
                 href="https://fashionfirst-admin-dashboard.netlify.app/"
                 className="img_description"
               >
-                Tool for viewing data analytics and performing CRUD operations.
+                Tool for viewing live data analytics and performing CRUD
+                operations.
               </a>
             </div>
           </div>
 
           <div className="project_links">
             <div>
-              <a className="project_subtitle" href="https://fashionfirst-admin-dashboard.netlify.app/">
+              <a
+                className="project_subtitle"
+                href="https://fashionfirst-admin-dashboard.netlify.app/"
+              >
                 <h3>Live Site</h3>
               </a>
             </div>
-            {/* <div>
-              <a
-                className="project_subtitle"
-                href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
-              >
-                <h3>Demo Video</h3>
-              </a>
-            </div> */}
+
             <div>
               <a
                 className="project_subtitle"
                 href="https://github.com/slevine3/Fashion-First"
+              >
+                <h3>Source Code</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project_row">
+        <div className="project_display_container">
+          <div className="img_wrap">
+            <img
+              className="project_image"
+              src={schoolDismissal}
+              alt="Climber_Nation"
+            ></img>
+
+            <div className="img_overlay image_overlay_blur">
+              <a
+                href="https://school-dismissal-system.herokuapp.com/"
+                className="img_title"
+              >
+                School Dismissal System
+              </a>
+              <a
+                href="https://school-dismissal-system.herokuapp.com/"
+                className="img_description"
+              >
+                Full stack component built as a tool for parents to report dismissal times to the school
+              </a>
+            </div>
+          </div>
+
+          <div className="project_links">
+            <div>
+              <a
+                className="project_subtitle"
+                href="https://school-dismissal-system.herokuapp.com/"
+              >
+                <h3>Live Site</h3>
+              </a>
+            </div>
+
+            <div>
+              <a
+                className="project_subtitle"
+                href="https://github.com/slevine3/School_Dismissal_System"
+              >
+                <h3>Source Code</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project_display_container">
+          <div className="img_wrap">
+            <img
+              className="project_image"
+              src={taskScheduler}
+              alt="Climber_Nation"
+            ></img>
+
+            <div className="img_overlay image_overlay_blur">
+              <a
+                href="http://daily-task-scheduler.herokuapp.com/"
+                className="img_title"
+              >
+                Daily Task Scheduler
+              </a>
+              <a
+                href="http://daily-task-scheduler.herokuapp.com/"
+                className="img_description"
+              >
+                Full stack web component for scheduling tasks and automating email delivery
+              </a>
+            </div>
+          </div>
+
+          <div className="project_links">
+            <div>
+              <a
+                className="project_subtitle"
+                href="http://daily-task-scheduler.herokuapp.com/"
+              >
+                <h3>Live Site</h3>
+              </a>
+            </div>
+
+            <div>
+              <a
+                className="project_subtitle"
+                href="https://github.com/slevine3"
               >
                 <h3>Source Code</h3>
               </a>
@@ -145,14 +227,7 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            {/* <div>
-              <a
-                className="project_subtitle"
-                href="https://www.loom.com/share/98717cfa741b4f34ba07a32ac76ea7e5"
-              >
-                <h3>Demo Video</h3>
-              </a>
-            </div> */}
+
             <div>
               <a
                 className="project_subtitle"
@@ -192,14 +267,7 @@ export const Project = () => {
                 <h3>Live Site</h3>
               </a>
             </div>
-            {/* <div>
-              <a
-                className="project_subtitle"
-                href="https://www.loom.com/share/42e9bfe2e1884a3fafc297f25dd0e8e0"
-              >
-                <h3>Demo Video</h3>
-              </a>
-            </div> */}
+
             <div>
               <a
                 className="project_subtitle"
