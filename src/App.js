@@ -12,15 +12,7 @@ import "./components/Project.css";
 import "./components/Contact.css";
 import "./components/Technology.css";
 
-import LogRocket from "logrocket";
-
-import { useEffect } from "react";
-
 const App = () => {
-  useEffect(() => {
-    LogRocket.init("amy4o7/portfolio-glsqq");
-  });
-
   return (
     <div>
       <NavBar />
