@@ -13,16 +13,16 @@ export const Contact = () => {
             method="POST"
             className="contact_form"
           >
-            <lable htmlFor="subject">Subject: </lable>
-            <input type="text" name="subject"></input>
-            <lable htmlFor="name">Name: </lable>
-            <input type="text" name="name"></input>
-            <lable htmlFor="email">Email: </lable>
-            <input type="email" name="email"></input>
-            <lable htmlFor="message">Message: </lable>
+            <label htmlFor="subject">Subject: </label>
+            <input id="subject" type="text" name="subject" />
+            <label htmlFor="name">Name: </label>
+            <input id="subject" type="text" name="name" />
+            <label htmlFor="email">Email: </label>
+            <input type="email" name="email" />
+            <label htmlFor="message">Message: </label>
             <textarea className="textarea" name="message"></textarea>
 
-            <button  className="button-12" >Submit</button>
+            <button className="button-12">Submit</button>
           </form>
         </div>
         <div className="contact_logos">
