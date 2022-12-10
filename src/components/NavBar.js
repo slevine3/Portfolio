@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import sam_logo from "./Images/sam_logo.png";
 
-
-export const NavBar = () => {
+const NavBar = () => {
   const [navContainerClass, setNavContainerClass] = useState(null);
   const [navBar, setNavBar] = useState(null);
   const [homeClass, setHomeClass] = useState(null);
@@ -71,9 +70,12 @@ export const NavBar = () => {
 
   return (
     <div className={navContainerClass}>
-      <div><a href="#home"><img className="nav_logo" src={sam_logo} alt="logo"></img></a></div>
+      <div>
+        <a href="#home">
+          <img className="nav_logo" src={sam_logo} alt="logo"></img>
+        </a>
+      </div>
       <div className={navBar}>
-        
         <div className="nav_link">
           <div>
             <a className={homeClass} href="#home">
@@ -116,3 +118,4 @@ export const NavBar = () => {
     </div>
   );
 };
+export default NavBar;

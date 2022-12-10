@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import resume from "./Resume/Sam-Levine_Resume.pdf";
 import { saveAs } from "file-saver";
 
-export const Home = () => {
+const Home = () => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
@@ -69,3 +69,4 @@ export const Home = () => {
     </div>
   );
 };
+export default Home;

@@ -14,9 +14,9 @@ export const About = () => {
           software engineer.
           <br></br>
           <br></br>
-          My favorite project has been FashionFirst, where I had the
-          opportunity to build a full stack web application, complete with a
-          backend database, security features, and dynamic frontend design.
+          My favorite project has been FashionFirst, where I had the opportunity
+          to build a full stack web application, complete with a backend
+          database, security features, and dynamic frontend design.
         </div>
         <div className="profile_pic_container">
           <img
@@ -29,3 +29,4 @@ export const About = () => {
     </div>
   );
 };
+export default About;

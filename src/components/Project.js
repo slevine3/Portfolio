@@ -122,7 +122,8 @@ export const Project = () => {
                 href="https://school-dismissal-system.herokuapp.com/"
                 className="img_description"
               >
-                Full stack component built as a tool for parents to report dismissal times to the school
+                Full stack component built as a tool for parents to report
+                dismissal times to the school
               </a>
             </div>
           </div>
@@ -166,7 +167,8 @@ export const Project = () => {
                 href="http://daily-task-scheduler.herokuapp.com/"
                 className="img_description"
               >
-                Full stack web component for scheduling tasks and automating email delivery
+                Full stack web component for scheduling tasks and automating
+                email delivery
               </a>
             </div>
           </div>
@@ -282,3 +284,4 @@ export const Project = () => {
     </div>
   );
 };
+export default Project;

@@ -288,7 +288,7 @@ export const Technology = () => {
             ></img>
             <h4 style={mongoTitle}>MongoDB</h4>
           </div>
-          <div className="logo_box" >
+          <div className="logo_box">
             <img
               onMouseEnter={() => handleFirebaseEnter()}
               onMouseLeave={() => handleFireBaseLeave()}
@@ -303,3 +303,4 @@ export const Technology = () => {
     </div>
   );
 };
+export default Technology;
