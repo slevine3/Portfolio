@@ -20,7 +20,7 @@ export const Technology = () => {
       <div className="logo_container">
         <div className="logo">
           <div className="logo_box">
-            <img src={js_logo} alt="js_-logo"></img>
+            <img src={js_logo} alt="js-logo"></img>
             <h4>JavaScript</h4>
           </div>
 
