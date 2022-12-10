@@ -17,7 +17,8 @@
   flex-direction: column;
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 20px;
   width: 250px;
   height: 25px;
@@ -55,6 +56,10 @@ input, textarea {
     0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
+.contact_logo {
+  height: 60px;
+  width: auto;
+}
 
 * {
   font-family: "Source Sans Pro", sans-serif;
@@ -87,5 +92,9 @@ input, textarea {
   }
   .button-12 {
     width: 255px;
+  }
+  .contact_logo {
+    height: 50px;
+    width: auto;
   }
 }

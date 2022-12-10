@@ -64,11 +64,12 @@
     padding: 0;
     height: 250px;
     width: 95vw;
+    padding-left: 3%;
   }
   .about_title {
     margin-bottom: 0px;
   }
-  .profile_pic_container{
+  .profile_pic_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,9 +81,8 @@
   }
 }
 
-
 @media screen and (max-width: 400px) {
-  .profile_pic{
+  .profile_pic {
     margin-top: 1%;
     height: 250px;
     width: auto;

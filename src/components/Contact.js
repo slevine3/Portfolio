@@ -28,12 +28,20 @@ export const Contact = () => {
         <div className="contact_logos">
           <div>
             <a href="https://www.linkedin.com/in/sam-levine-965696119/">
-              <img src={linkedin_logo} alt="LinkedIn logo"></img>
+              <img
+                className="contact_logo"
+                src={linkedin_logo}
+                alt="LinkedIn logo"
+              ></img>
             </a>
           </div>
           <div>
             <a href="https://github.com/slevine3">
-              <img src={github_logo} alt="Github logo"></img>
+              <img
+                className="contact_logo"
+                src={github_logo}
+                alt="Github logo"
+              ></img>
             </a>
           </div>
         </div>
