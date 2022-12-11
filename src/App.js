@@ -23,20 +23,14 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      {loading ? (
-        <Loading />
-      ) : (
-        <>
-          <NavBar />
-          <Home />
-          <About />
-          <Technology />
-          <Project />
-          <Contact />
-        </>
-      )}
-    </>
+    <Loading loading={loading}>
+      <NavBar />
+      <Home />
+      <About />
+      <Technology />
+      <Project />
+      <Contact />
+    </Loading>
   );
 };
 

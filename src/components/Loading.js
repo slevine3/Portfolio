@@ -1,8 +1,8 @@
 import LinearProgress from "@mui/material/LinearProgress";
 import Box from "@mui/material/Box";
 
-const Loading = () => {
-  return (
+const Loading = ({ loading, children }) => {
+  return loading ? (
     <Box
       sx={{
         display: "flex",
@@ -18,6 +18,8 @@ const Loading = () => {
         <LinearProgress />
       </Box>
     </Box>
+  ) : (
+    children
   );
 };
 
