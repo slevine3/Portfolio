@@ -23,14 +23,16 @@ const App = () => {
   }, []);
 
   return (
-    <Loading loading={loading}>
+    // <Loading loading={loading}>
+    <div>
       <NavBar />
       <Home />
       <About />
       <Technology />
       <Project />
       <Contact />
-    </Loading>
+    </div>
+    // </Loading>
   );
 };
 

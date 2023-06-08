@@ -7,16 +7,18 @@ export const About = () => {
       </div>
       <div className="about_body">
         <div className="about_description">
-          I'm a software engineer based out of Tzrufa, Israel with a love for
-          surfing, rock climbing, logic, and technology. I recently graduated
-          from Developers Institute; an internationally recognized coding
-          bootcamp where I had the opportunity to sharpen my skills as a
-          software engineer.
+          I'm Sam Levine, a web developer based in Tzrufa, Israel. With
+          expertise in technologies like React, Node.js, and MongoDB, I
+          specialized in building scalable and user-friendly web applications.
           <br></br>
           <br></br>
-          My favorite project has been FashionFirst, where I had the opportunity
-          to build a full stack web application, complete with a backend
-          database, security features, and dynamic frontend design.
+          In my previous role, I worked as a Full Stack Web Developer at
+          Shoesonline, where I developed an intuitive admin panel using React
+          with TypeScript and Redux. I also maintained microservices
+          architecture and optimized communication between components.
+          <br></br>
+          <br></br>I hold a degree in Economics from Queens College and completed a prestigious full-stack web development program
+          at Developers Institute.
         </div>
         <div className="profile_pic_container">
           <img
