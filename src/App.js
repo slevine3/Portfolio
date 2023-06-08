@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 import "./components/NavBar.css";
 import "./components/Home.css";
@@ -6,7 +6,7 @@ import "./components/About.css";
 import "./components/Project.css";
 import "./components/Contact.css";
 import "./components/Technology.css";
-import Loading from "./components/Loading";
+// import Loading from "./components/Loading";
 
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
@@ -16,11 +16,11 @@ import Contact from "./components/Contact";
 import Technology from "./components/Technology";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setLoading(false);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(false);
+  // }, []);
 
   return (
     // <Loading loading={loading}>
