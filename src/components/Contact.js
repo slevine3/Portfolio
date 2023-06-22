@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className="contact_info_container">
         <div>
           <form
-            action="https://formsubmit.co/7c1a3dcf72e09b552a05205cc108fd0a"
+            action="https://formsubmit.co/levinesam3@gmail.com"
             method="POST"
             className="contact_form"
           >
