@@ -12,10 +12,8 @@ export const About = () => {
           specialize in building scalable and user-friendly web applications.
           <br></br>
           <br></br>
-          Currently, I work as a Full Stack Web Developer at
-          Shoesonline, where I developed an intuitive admin panel using React
-          with TypeScript and Redux. I also maintain microservices
-          architecture and optimize communication between components.
+          Currently, I work as a Part-Time Software Engineer at Manteca.ai,
+          where I utilize React with TypeScript to integrate algorithms into a 3rd party SaaS financial company platform.
           <br></br>
           <br></br>I hold a degree in Economics from Queens College and completed a prestigious full-stack web development program
           at Developers Institute.
