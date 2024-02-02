@@ -12,8 +12,8 @@ export const About = () => {
           specialize in building scalable and user-friendly web applications.
           <br></br>
           <br></br>
-          Currently, I work as a Part-Time Software Engineer at Manteca.ai,
-          where I utilize React with TypeScript to integrate algorithms into a 3rd party SaaS financial company platform.
+          Currently, I work as a Full Stack Web Developer at BOA Ideas - Shopify Plus Agency,
+          where I utilize React, Node.js, and Liquid to create custom storefronts.
           <br></br>
           <br></br>I hold a degree in Economics from Queens College and completed a prestigious full-stack web development program
           at Developers Institute.
